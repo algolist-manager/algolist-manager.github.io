@@ -1,21 +1,43 @@
 <html>
     <header>
-        <link rel="stylesheet" href='./page.css'>
+        <style>
+            ul { 
+                background-color: #dbf39b; 
+                width: 100px; 
+                list-style-type: none; 
+                margin : 0; margin-top : 20px ; margin-right: 20px; float:left;padding:0;}
+            li a { display: block; color: #000000; 
+                padding: 8px; 
+                text-decoration: none; 
+                font-weight: bold; }
+            li a:hover { background-color: #CD853F; color: white; }
+            h1 {padding-left: 10px; padding-top: 20px; float: top;}
+            div {margin : 20 px;}
+        </style>
         <title>
             찬우의 Github Blog
         </title>
     </header>
     <body>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/strategy.html">Trading Strategy</a></li>
+            <li><a href="/portfolio.html">Portfolio Optimization</a></li>
+        </ul>
         <h1 class='title'> 
             찬우의 Github Blog
         </h1>
         <div class='article'>
-            나의 글
+            <h2>Introduction</h2>
+            <p>
+                이곳은 찬우의 Github Blog입니다. 앞으로 많이 개편할테니 기대해주세요!
+            </p>
+            <img src="./home.png">
         </div>
     </body>
     <footer>
         <p>
-            <a href="./about.html">다른 페이지</a>
+            <a href="./about.html" style='bottom:0;'>다른 페이지</a>
         </p>
     </footer>
 </html>
